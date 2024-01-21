@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-poetry-strawberry"
+version = "0.1.0"
+description = "Base project with fastapi and strawberry for GraphQL"
+authors = ["haico <haico>"]
+maintainers = ["Ha Le <leha220699@gmail.com>"]
+keywords = ["packaging", "poetry"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://python-poetry.org/"
+repository = "https://github.com/python-poetry/poetry"
+documentation = "https://python-poetry.org/docs/"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.0"
+uvicorn = {extras = ["standard"], version = "^0.26.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
